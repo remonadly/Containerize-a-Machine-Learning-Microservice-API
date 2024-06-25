@@ -1,0 +1,70 @@
+
+- run resize.sh (if using cloud 9)
+
+- clone the Repo 
+
+- create virtual environment 
+
+	python3 -m venv .devops
+	source .devops/bin/activate
+	source ../project-ml-microservice-kubernetes/.devops/bin/activate
+	source ../5-Microservices-at-Scale-using-AWS/DevOps_Microservices/project-ml-microservice-kubernetes/.devops/bin/activate
+	
+	
+- make install "To install all the requirements" 
+
+- install or make sure that 
+	
+	Docker
+	Hadolint and pylint    >>>> (try make lint to check that everything will pass )
+	Kubernetes (Minikube)
+	
+- 
+
+
+ce6b72263368 a392a890cb71 4dd724b23545
+
+to run docker image inside >> docker run -it {image name} bash 
+
+
+- Next thing to do :
+
+	try all steps manually on an EC2 instance and wright it down w nshof kol Steps htt3ml f any stage f el pipe line.
+
+
+
+
+
+Steps:
+-------
+- For Deploying Docker container(s) to a small Kubernetes cluster:
+
+	if will use AWS Kubernetes as a Service >>> do by cloudformation
+	if will build your own Kubernetes cluster >>> do by ansible 
+	
+- after finishing building a k8s cluster on one instance , create one another and see if u can run the deployed container before
+
+bs f el 8alb mmkn ndtr n3ml K8s cluster gded w ndeploy el container 3leh 
+
+-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
